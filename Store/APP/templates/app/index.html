@@ -1,0 +1,13 @@
+{% extends 'app/layout.html' %}
+
+{% block title %}Главная{% endblock %}
+
+{% block content %}
+<div class="features">
+    <h1>{{ title }}</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid libero dolores odio, consectetur animi optio beatae magni fugit iste suscipit cumque voluptates quam minima iusto amet illo fugiat eligendi! Mollitia!</p>
+    {% for el in values  %}
+    <p>{{ el }}</p>
+    {% endfor %}
+</div>
+{% endblock %}

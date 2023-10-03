@@ -1,0 +1,89 @@
+
+
+aside {
+    margin-left: 0;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    color: rgb(226, 112, 36);
+    width: 21%;
+    height: 100vh;
+    margin-bottom: 0;
+    position: fixed;
+    border-right: 3px solid rgb(243, 237, 149);
+    box-shadow: 10px 5px 5px rgb(31, 30, 30);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+}
+li:hover {
+    transform: scale(1.1);
+    color: rgb(255, 253, 106);
+}
+ul {
+    list-style: none;
+    font-size: 140%;
+}
+ul li {
+    display:block;
+    margin-top: 20px;
+    transition: transform .3s;
+}
+aside img {
+    border-radius: 5%;
+    width: 19.8vw;
+    height: 11.5vw;
+}
+aside .logo {
+    margin-left: 32%;
+    border: 3px solid black;
+    margin-top: 50%;
+    background-color: rgb(255, 253, 135);
+    color: rgb(15, 8, 8);
+    border-radius: 1vw;
+}
+main .features {
+    background-color: rgba(0, 0, 0, 0.342);
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(255, 255, 255);
+    margin-left: 25%;
+    margin-right: 10%;
+    border-radius: 2vw;
+}
+h1 {
+    margin-top: 5%;
+}
+
+.alert-warning {
+    width: 70%;
+    margin-left: 25%;
+}
+.but {
+    border-radius: 1vw;
+    background-color: rgb(255, 242, 129);
+    border: 2px solid white;
+    width: 15vw;
+}
+.first {
+    border-radius: 1vw;
+    width: 50%;
+    min-height: 35px;
+    border: 2px solid rgb(253, 255, 111);
+}
+.third {
+    border-radius: 1vw;
+    width: 20%;
+    min-height: 50px;
+    border: 2px solid rgb(255, 253, 120);
+    background-color: black;
+    color: white;
+}
+.second {
+    border-radius: 1vw;
+    width: 50%;
+    min-height: 80px;
+    border: 2px solid rgb(255, 247, 129);
+}
+

@@ -1,0 +1,24 @@
+{% extends 'app/layout.html' %}
+
+{% block title %}Форма по добавлению статьи{% endblock %}
+
+{% block content %}
+<div class="features">
+    <h1>Форма по добавлению статьи</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.title }}<br>
+        <br>
+        {{ form.anons }}<br>
+        <br>
+        {{ form.full_text }}<br>
+        <br>
+        {{ form.date }}<br>
+        <br>
+    
+
+        <button class="third" type="submit">Добавить статью</button><br>
+        <span>{{ error }}</span>
+    </form>
+</div>
+{% endblock %}
